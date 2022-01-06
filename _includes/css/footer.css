@@ -1,0 +1,24 @@
+footer {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+footer div{
+  width: 100%;
+}
+
+footer a,
+footer p {
+  display: inline-block;
+  font-family: var(--fuenteTitulos)
+}
+
+footer a {
+  color: var(--principal);
+  margin: 1rem .5rem;
+  font-weight: 700
+}

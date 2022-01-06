@@ -1,0 +1,54 @@
+@media screen and (min-width:767px) {
+
+  .gallery-wrap {
+    height: 80vh;
+  }
+
+  .item:hover {
+    flex: 7;
+  }
+
+}
+
+@media screen and (min-width:992px) {
+
+  q {
+    padding: 3rem;
+    text-align: center;
+  }
+
+  .portafolio article{
+    grid-template-columns: 600px auto;
+    align-items: center;
+  }
+
+  .portafolio article div{
+    position: absolute;
+    left: 550px;
+    width: 40vw;
+  }
+
+  .acordeon p {
+    font-size: 2rem;
+  }
+
+  .suministros {
+    padding: 0;
+    gap: 5rem;
+    width: 60vw;
+    place-content: center;
+    justify-self: center;
+  }
+
+  .suministros div {
+    gap: 1.5rem;
+  }
+
+}
+
+@media screen and (min-width:1200px) {
+
+  .huila h2 {
+    max-width: 60vw;
+  }
+}
